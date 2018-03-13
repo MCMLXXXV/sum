@@ -15,9 +15,9 @@ script:
   - yarn lint
   - yarn coverage
 
-#after_script:
-#  - yarn add --dev coveralls
-#  - cat ./coverage/lcov.info | yarn coveralls
+after_script:
+  - yarn add --dev coveralls
+  - cat ./coverage/lcov.info | yarn coveralls
 
 branches:
   only:
