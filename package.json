@@ -1,0 +1,41 @@
+{
+  "name": "@rblopes/sum",
+  "version": "0.0.0",
+  "description": "A dumb math library.",
+  "author": "Rafael Barbosa Lopes (https://github.com/rblopes)",
+  "contributors": [],
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MCMLXXXV/sum.git"
+  },
+  "bugs": "https://github.com/MCMLXXXV/sum/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "coverage": "jest --coverage",
+    "format": "xo --fix",
+    "lint": "xo",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "xo": "^0.20.3"
+  },
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "xo": {
+    "env": [
+      "jest"
+    ],
+    "space": 2
+  },
+  "license": "Unlicense"
+}

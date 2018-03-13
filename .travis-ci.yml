@@ -1,0 +1,14 @@
+language: node
+
+sudo: false
+
+node_js:
+  - v8
+  - v9
+
+git:
+  depth: 1
+
+branches:
+  only:
+    - master

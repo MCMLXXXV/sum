@@ -1,0 +1,13 @@
+# Node.js
+*.tgz
+*.log*
+coverage/
+node_modules/
+
+# VIM
+*~
+tags
+.sw[a-p]
+.*.sw[a-p]
+.netrwhist
+Session.vim
