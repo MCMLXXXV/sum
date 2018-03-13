@@ -9,6 +9,14 @@ node_js:
 git:
   depth: 1
 
+script:
+  - yarn lint
+  - yarn coverage
+
+after_script:
+  - yarn add --dev coveralls
+  - cat ./coverage/lcov.info | yarn coveralls
+
 branches:
   only:
     - master
