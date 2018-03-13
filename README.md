@@ -1,4 +1,4 @@
-# sum ─ [![Build Status](https://travis-ci.org/MCMLXXXV/sum.svg?branch=master)](https://travis-ci.org/MCMLXXXV/sum) [![Coverage Status](https://coveralls.io/repos/github/MCMLXXXV/sum/badge.svg?branch=master)](https://coveralls.io/github/MCMLXXXV/sum?branch=master)
+# sum • [![Build Status](https://travis-ci.org/MCMLXXXV/sum.svg?branch=master)](https://travis-ci.org/MCMLXXXV/sum) [![Coverage Status](https://coveralls.io/repos/github/MCMLXXXV/sum/badge.svg?branch=master)](https://coveralls.io/github/MCMLXXXV/sum?branch=master)
 
 A dumb math library.
 
