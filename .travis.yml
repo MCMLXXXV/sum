@@ -2,7 +2,9 @@ language: node_js
 
 sudo: false
 
-cache: yarn
+cache:
+  directories:
+    - node_modules/
 
 node_js:
   - v8
